@@ -2,12 +2,12 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using EnumerableAsyncProcessNs.Tests.Extensions;
 using EnumerableAsyncProcessor.Ns.Builders;
 using EnumerableAsyncProcessor.Ns.Extensions;
+using EnumerableAsyncProcessor.Ns.Tests.Extensions;
 using NUnit.Framework;
 
-namespace EnumerableAsyncProcessNs.Tests;
+namespace EnumerableAsyncProcessor.Ns.Tests;
 
 [Parallelizable(ParallelScope.All)]
 public class RateLimitedParallelAsyncProcessorTests

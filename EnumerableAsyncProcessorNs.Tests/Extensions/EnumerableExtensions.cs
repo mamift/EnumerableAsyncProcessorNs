@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EnumerableAsyncProcessNs.Tests.Extensions;
+namespace EnumerableAsyncProcessor.Ns.Tests.Extensions;
 
 public static class EnumerableExtensions
 {

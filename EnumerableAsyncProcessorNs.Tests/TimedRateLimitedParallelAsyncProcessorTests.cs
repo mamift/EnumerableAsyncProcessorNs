@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using EnumerableAsyncProcessor.Ns.Builders;
 using NUnit.Framework;
 
-namespace EnumerableAsyncProcessNs.Tests;
+namespace EnumerableAsyncProcessor.Ns.Tests;
 
 [FixtureLifeCycle(LifeCycle.InstancePerTestCase)]
 [Parallelizable(ParallelScope.All)]

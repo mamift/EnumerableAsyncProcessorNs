@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using EnumerableAsyncProcessNs.Tests.Extensions;
 using EnumerableAsyncProcessor.Ns.Extensions;
+using EnumerableAsyncProcessor.Ns.Tests.Extensions;
 using NUnit.Framework;
 
-namespace EnumerableAsyncProcessNs.Tests;
+namespace EnumerableAsyncProcessor.Ns.Tests;
 
 public class OneAtATimeAsyncProcessorTests
 {
