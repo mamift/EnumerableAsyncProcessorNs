@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedUnitTests", "SharedUnitTests\SharedUnitTests.shproj", "{27556F9C-283D-4794-BB1C-E42B22A44ECC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableAsyncProcessor.Ns.Tests.NetFramework", "EnumerableAsyncProcessor.Ns.Tests.NetFramework\EnumerableAsyncProcessor.Ns.Tests.NetFramework.csproj", "{1D243CB0-0A96-4BC4-A415-341406F7351E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{2982DAD5-CE3D-446E-9EF5-C9FB8CCF5172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2982DAD5-CE3D-446E-9EF5-C9FB8CCF5172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2982DAD5-CE3D-446E-9EF5-C9FB8CCF5172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D243CB0-0A96-4BC4-A415-341406F7351E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D243CB0-0A96-4BC4-A415-341406F7351E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D243CB0-0A96-4BC4-A415-341406F7351E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D243CB0-0A96-4BC4-A415-341406F7351E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		SolutionGuid = {3E2558F6-76AC-4B80-BB44-DB66B419BEBF}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedUnitTests\SharedUnitTests.projitems*{1d243cb0-0a96-4bc4-a415-341406f7351e}*SharedItemsImports = 5
 		SharedUnitTests\SharedUnitTests.projitems*{27556f9c-283d-4794-bb1c-e42b22a44ecc}*SharedItemsImports = 13
 		SharedUnitTests\SharedUnitTests.projitems*{36f02061-507b-45ba-ac50-ee53a8fe408a}*SharedItemsImports = 5
 	EndGlobalSection
