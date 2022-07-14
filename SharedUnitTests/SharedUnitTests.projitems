@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>27556f9c-283d-4794-bb1c-e42b22a44ecc</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedUnitTests</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BatchAsyncProcessorTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EnumerableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OneAtATimeAsyncProcessorTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RateLimitedParallelAsyncProcessorTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TimedRateLimitedParallelAsyncProcessorTests.cs" />
+  </ItemGroup>
+</Project>

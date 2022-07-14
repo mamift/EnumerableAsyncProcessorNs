@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerableAsyncProcessor.Ns", "EnumerableAsyncProcessorNs\EnumerableAsyncProcessor.Ns.csproj", "{9006EA91-81F2-4D01-976E-B9B1337D68F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerableAsyncProcessor.Ns.Tests", "EnumerableAsyncProcessorNs.Tests\EnumerableAsyncProcessor.Ns.Tests.csproj", "{36F02061-507B-45BA-AC50-EE53A8FE408A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerableAsyncProcessor.Ns.Tests.Net6", "EnumerableAsyncProcessorNs.Tests\EnumerableAsyncProcessor.Ns.Tests.Net6.csproj", "{36F02061-507B-45BA-AC50-EE53A8FE408A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Example\Example.csproj", "{2982DAD5-CE3D-446E-9EF5-C9FB8CCF5172}"
 EndProject
@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedUnitTests", "SharedUnitTests\SharedUnitTests.shproj", "{27556F9C-283D-4794-BB1C-E42B22A44ECC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E2558F6-76AC-4B80-BB44-DB66B419BEBF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedUnitTests\SharedUnitTests.projitems*{27556f9c-283d-4794-bb1c-e42b22a44ecc}*SharedItemsImports = 13
+		SharedUnitTests\SharedUnitTests.projitems*{36f02061-507b-45ba-ac50-ee53a8fe408a}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
