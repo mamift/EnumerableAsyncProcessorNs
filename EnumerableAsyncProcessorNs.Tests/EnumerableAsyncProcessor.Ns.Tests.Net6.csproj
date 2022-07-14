@@ -20,4 +20,6 @@
     <ProjectReference Include="..\EnumerableAsyncProcessorNs\EnumerableAsyncProcessor.Ns.csproj" />
   </ItemGroup>
 
+  <Import Project="..\SharedUnitTests\SharedUnitTests.projitems" Label="Shared" />
+
 </Project>
