@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>EnumerableAsyncProcessor.Ns</RootNamespace>
+    <PackageProjectUrl>https://github.com/mamift/EnumerableAsyncProcessorNs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mamift/EnumerableAsyncProcessorNs</RepositoryUrl>
+    <PackageTags>IAsyncEnumerable; async; await</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Description>A .NET Standard 2 compatible backport of the very good github.com/thomhurst/EnumerableAsyncProcessor project</Description>
+    <Authors>thomhurst, mamift</Authors>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
