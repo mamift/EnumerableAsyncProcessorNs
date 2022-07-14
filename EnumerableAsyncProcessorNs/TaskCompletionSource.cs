@@ -11,6 +11,12 @@ namespace EnumerableAsyncProcessor.Ns
             return TrySetResult(null);
         }
 
+        /// <inheritdoc cref="TaskCompletionSource{TResult}.SetResult"/>
+        public void SetResult()
+        {
+            base.SetResult(null);
+        }
+
         /// <inheritdoc cref="TaskCompletionSource{TResult}.Task"/>
         public new Task Task
         {
