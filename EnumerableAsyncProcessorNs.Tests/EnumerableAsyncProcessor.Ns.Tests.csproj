@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EnumerableAsyncProcessorNs\EnumerableAsyncProcessorNs.csproj" />
+    <ProjectReference Include="..\EnumerableAsyncProcessorNs\EnumerableAsyncProcessor.Ns.csproj" />
   </ItemGroup>
 
 </Project>

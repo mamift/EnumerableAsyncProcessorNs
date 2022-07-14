@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerableAsyncProcessorNs", "EnumerableAsyncProcessorNs\EnumerableAsyncProcessorNs.csproj", "{9006EA91-81F2-4D01-976E-B9B1337D68F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerableAsyncProcessor.Ns", "EnumerableAsyncProcessorNs\EnumerableAsyncProcessor.Ns.csproj", "{9006EA91-81F2-4D01-976E-B9B1337D68F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerableAsyncProcessorNs.Tests", "EnumerableAsyncProcessorNs.Tests\EnumerableAsyncProcessorNs.Tests.csproj", "{36F02061-507B-45BA-AC50-EE53A8FE408A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerableAsyncProcessor.Ns.Tests", "EnumerableAsyncProcessorNs.Tests\EnumerableAsyncProcessor.Ns.Tests.csproj", "{36F02061-507B-45BA-AC50-EE53A8FE408A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Example\Example.csproj", "{2982DAD5-CE3D-446E-9EF5-C9FB8CCF5172}"
 EndProject
