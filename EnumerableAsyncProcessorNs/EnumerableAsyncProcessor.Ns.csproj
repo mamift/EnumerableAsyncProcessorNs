@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net462;net470;net471;net472;net48</TargetFrameworks>
     <RootNamespace>EnumerableAsyncProcessor.Ns</RootNamespace>
     <PackageProjectUrl>https://github.com/mamift/EnumerableAsyncProcessorNs</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mamift/EnumerableAsyncProcessorNs</RepositoryUrl>

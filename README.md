@@ -20,7 +20,7 @@ As the [original project](https://github.com/thomhurst/EnumerableAsyncProcessor)
  - [AsyncEnumerator](https://github.com/Dasync/AsyncEnumerable)
  - [morelinq](https://github.com/morelinq/MoreLINQ)
  - [System.Collections.Immutable](https://www.nuget.org/packages/System.Collections.Immutable/)
- - A custom built-in non-generic `TaskCompletionSource` class that inherits from `TaskCompletionSource<T>` (where the generic type parameter is closed to resolve to `object`).
+ - A custom built-in non-generic `TaskCompletionSource` class that inherits from `System.Threading.Tasks.TaskCompletionSource<T>` (where the generic type parameter is closed to resolve to `object`).
 
 NOTE: If you use this same library in another library project that targets .NET Standard 2, please see the [example](https://github.com/Dasync/AsyncEnumerable#example-1-demonstrates-usage-only) in the [AsyncEnumerator project's](https://github.com/Dasync/AsyncEnumerable) README to properly consume `IAsyncEnumerable<T>` (as your C# language version will be set to 7.3 and the regular `await foreach` syntax won't be available).
 
