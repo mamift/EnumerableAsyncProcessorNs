@@ -10,10 +10,12 @@
     <Description>A .NET Standard 2 compatible backport of the very good github.com/thomhurst/EnumerableAsyncProcessor project</Description>
     <Authors>thomhurst, mamift</Authors>
     <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AsyncEnumerator" Version="4.0.2" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="6.0.0" />
     <PackageReference Include="morelinq" Version="3.3.2" />
     <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
   </ItemGroup>
